@@ -1,0 +1,123 @@
+
+.App {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  background-color: #A5BECC; /* Light Cream */
+  color: #000B49; /* Dark Blue Gray */
+}
+
+.home {
+  padding: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.main-section {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #9B0000; /* Soft Red */
+  color: #0a0762; /* Dark Blue Gray */
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #de5e5e; /* Deep Red */
+  border: 1px solid #4c2a3d; /* Dark Blue Gray */
+  color: #0f191f; /* Light Cream */
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 24px;
+  color: #8f660e; /* Light Cream */
+
+}
+
+.category-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #2B2A4C; /* Dark Blue Gray */
+  border-radius: 10px;
+  background-color: #A5BECC; /* Soft Red */
+  color: #2c2005; /* Light Cream */
+}
+
+h2 {
+  color: #000B49; /* Dark Blue Gray */
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000B49; /* Dark Blue Gray */
+  border-radius: 10px;
+  background-color: #A5BECC; /* Light Cream */
+  color: #000B49; /* Dark Blue Gray */
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  text-align: center;
+}
+
+.item-price {
+  color: #B31312; /* Deep Red */
+  font-weight: bold;
+}
+
+.sidebar {
+  width: 70px;
+  background-color: #000B49; /* Dark Blue Gray */
+  padding: 10px;
+  border-right: 1px solid #B31312; /* Deep Red */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #FFF5E0; /* Light Cream */
+}
+
+.sidebar-item:hover {
+  background-color: #B31312; /* Deep Red */
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #FFF5E0; /* Light Cream */
+}
+
+.sidebar-text {
+  font-size: 12px;
+  text-align: center;
+}
+.card-box{
+  background-color: #0a0762;
+}

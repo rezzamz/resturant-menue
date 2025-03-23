@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #a80707;
+}
+
+.home h1 {
+  color: #ff0000;
+}
+
+.home button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #1d1d78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.card-box{
+  background-color: #0a0762;
+}

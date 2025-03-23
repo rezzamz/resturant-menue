@@ -1,0 +1,62 @@
+.menu-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-section {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #cf0b0b;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .category-section {
+    margin-bottom: 40px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #790e0e;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  .card-box{
+    background-color: #0a0762;
+  }
+  .css-1j74uew-MuiPaper-root-MuiCard-root{
+    background-color: #0a0762;
+  }
